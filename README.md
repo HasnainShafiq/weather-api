@@ -1,2 +1,3 @@
-# book-library
- Small project working with the OpenLibrary API
+# WeatherAPI app
+
+My take on the weather API application.
