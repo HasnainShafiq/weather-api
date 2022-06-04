@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <form action="/">
+                <div class="input__container">
+                <input type="text" id="input" class="input" placeholder="Enter a city:">
+                <button>submit</button>
+                </div>
+                <div class="radio__container">
+                <input type="radio" class="radio" id="fahrenheit" name="temperature" value="fahrenheit" required>
+                <label for="fahrenheit">Fahrenheit</label>
+                <input type="radio" class="radio" id="celsius" name="temperature" value="celsius">
+                <label for="celsius">Celsius</label>
+                </div>
+            </form>
+            <div class="data__container">
+            <div class="text__container">
+            <div class="title">
+                <h1>City</h1>
+                <h4 id="country">Country</h4>
+            </div>
+        <div class="temp__container">
+            <h2 class="temp">Temperature</h2>
+            <img class="sm__screen" src="" alt="">
+            <h4 id="condition">Condition</h4>
+        </div>
+        <p id='time'>Local Time</p>
+    </div>
+        <img class="md__screen" src="" alt="">
+    </div>
+        <p class="attribution"></p>
+    </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
