@@ -1,4 +1,4 @@
-const APIKey = YOUR_API_KEY;
+const APIKey = '09faf8d03f444e879d1183451222405';
 let button = document.querySelector('button');
 
 
@@ -42,7 +42,7 @@ async function bodyBg (url) {
 // define async function to fetch weather data from Weather API.
 async function fetchWeather () {
 
-    const clientID = YOUR_CLIENT_ID;
+    const clientID = 'BYYH4OOGBmWAOTyQTeY19ZTb1zQiWkZ81SQ9sxK0iuw';
 
 // select h1 (name of city) 
     let h1 = document.querySelector('h1');
